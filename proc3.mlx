@@ -1,0 +1,15 @@
+<!DOCTYPE FilterScript>
+<FilterScript>
+ <filter name="Select Faces by Color">
+  <Param g="255" type="RichColor" r="255" a="255" name="Color" b="255"/>
+  <Param enum_val0="HSV" enum_val1="RGB" enum_cardinality="2" type="RichEnum" value="1" name="ColorSpace"/>
+  <Param type="RichBool" value="true" name="Inclusive"/>
+  <Param type="RichDynamicFloat" value="0.05" min="0" name="PercentRH" max="1"/>
+  <Param type="RichDynamicFloat" value="0.05" min="0" name="PercentGS" max="1"/>
+  <Param type="RichDynamicFloat" value="0.05" min="0" name="PercentBV" max="1"/>
+ </filter>
+ <filter name="Dilate Selection"/>
+ <filter name="Dilate Selection"/>
+ <filter name="Erode Selection"/>
+ <filter name="Delete Selected Faces and Vertices"/>
+</FilterScript>

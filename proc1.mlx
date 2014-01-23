@@ -1,0 +1,15 @@
+<!DOCTYPE FilterScript>
+<FilterScript>
+ <filter name="Surface Reconstruction: Poisson">
+  <Param type="RichInt" value="%DEPTH%" name="OctDepth"/>
+  <Param type="RichInt" value="6" name="SolverDivide"/>
+  <Param type="RichFloat" value="1" name="SamplesPerNode"/>
+  <Param type="RichFloat" value="1" name="Offset"/>
+ </filter>
+ <filter name="Per Vertex Color Function">
+  <Param type="RichString" value="255" name="x"/>
+  <Param type="RichString" value="255" name="y"/>
+  <Param type="RichString" value="255" name="z"/>
+  <Param type="RichString" value="255" name="a"/>
+ </filter>
+</FilterScript>
